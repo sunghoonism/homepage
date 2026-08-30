@@ -38,11 +38,3 @@ Cloudflare 대시보드에서 저장소를 연결하고(**Workers & Pages → Cr
 ```bash
 npx wrangler pages deploy . --project-name=ant-revolution
 ```
-
-## 남은 작업
-
-`index.html`에서 `EDIT ME` 를 검색하면 교체할 자리표시자가 나옵니다.
-
-- "Fields of work" 카드 3개 — 실제 제품이나 사례로 바꾸고 싶다면 교체
-- `robots.txt`의 sitemap 주소, 그리고 `og:image` / canonical 호스트 — 커스텀 도메인을 연결한 뒤 갱신
-  (현재는 `https://antrevolution.com` 기준으로 적혀 있고, 실제 배포는 `https://ant-revolution.pages.dev` 입니다)
